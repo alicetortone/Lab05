@@ -106,7 +106,7 @@ def main(page: ft.Page):
     btn_piu = ft.IconButton(ft.Icons.ADD, on_click=incrementa_valore)
     pulsante_aggiungi_strumento = ft.Button("Aggiungi strumento", on_click=aggiungi_nuovo_strumento)
 
-    # --- LAYOUT --
+    # --- LAYOUT ---
     page.add(
         toggle_cambia_tema,
 
